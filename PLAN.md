@@ -64,7 +64,7 @@
 ### Phase 4：部署上线 ✅（代码已推送）
 
 - [x] 创建 GitHub 仓库并推送代码 → `github.com/chenjt56/personal-site`
-- [ ] 注册/登录 Vercel 并导入该仓库 → **待你操作**
+- [x] 注册/登录 Vercel 并导入该仓库（已部署）
 - [ ] 配置自定义域名（可选）
 - [ ] 设置 GTM / 统计（可选）
 
