@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode', '@vercel/analytics'],
   css: ['~/assets/css/main.css'],
   colorMode: {
     classSuffix: '',
