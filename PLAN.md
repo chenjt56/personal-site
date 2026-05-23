@@ -8,8 +8,9 @@
 | 渲染模式 | SSG（静态生成） |
 | 样式 | Tailwind CSS |
 | 设计风格 | 极简干净 |
-| 部署平台 | Vercel |
+| 部署平台 | Vercel（待部署） |
 | 包管理 | npm |
+| 代码仓库 | github.com/chenjt56/personal-site |
 
 ## 页面结构
 
@@ -60,19 +61,16 @@
 - [x] 填写教育经历（中山大学）
 - [x] 填写技能列表
 
-### Phase 4：部署上线（待处理）
+### Phase 4：部署上线 ✅（代码已推送）
 
-- [ ] 创建 GitHub 仓库并推送代码
-- [ ] 注册/登录 Vercel（vercel.com）
-- [ ] 在 Vercel 导入 GitHub 仓库
-- [ ] Vercel 自动部署（无需配置，框架自动识别为 Nuxt）
+- [x] 创建 GitHub 仓库并推送代码 → `github.com/chenjt56/personal-site`
+- [ ] 注册/登录 Vercel 并导入该仓库 → **待你操作**
 - [ ] 配置自定义域名（可选）
 - [ ] 设置 GTM / 统计（可选）
 
 ### Phase 5：后续迭代（可选）
 
 - [ ] 添加博客功能（`@nuxt/content`）
-- [ ] 添加明暗主题切换（已内置）
 - [ ] 添加动画（vueuse/motion）
 - [ ] 添加项目案例展示
 - [ ] 添加简历 PDF 下载
