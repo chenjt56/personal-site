@@ -1,3 +1,16 @@
+<script setup lang="ts">
+interface Props {
+  company: string
+  role: string
+  period: string
+  location: string
+  description: string
+  techStack: string[]
+}
+
+defineProps<Props>()
+</script>
+
 <template>
   <div class="relative pl-6 border-l-2 border-gray-200 dark:border-gray-700">
     <div class="absolute left-0 top-1 w-2.5 h-2.5 -translate-x-[5.5px] rounded-full bg-gray-300 dark:bg-gray-600" />
@@ -24,14 +37,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-defineProps({
-  company: String,
-  role: String,
-  period: String,
-  location: String,
-  description: String,
-  techStack: Array,
-})
-</script>

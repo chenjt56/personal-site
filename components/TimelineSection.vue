@@ -1,24 +1,4 @@
-<template>
-  <section class="mb-24">
-    <h2 class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm">
-      工作经历
-    </h2>
-    <div class="space-y-10">
-      <TimelineItem
-        v-for="exp in experiences"
-        :key="exp.company"
-        :company="exp.company"
-        :role="exp.role"
-        :period="exp.period"
-        :location="exp.location"
-        :description="exp.description"
-        :techStack="exp.techStack"
-      />
-    </div>
-  </section>
-</template>
-
-<script setup>
+<script setup lang="ts">
 const experiences = [
   {
     company: '华为技术有限公司',
@@ -46,3 +26,23 @@ const experiences = [
   },
 ]
 </script>
+
+<template>
+  <section class="mb-24">
+    <h2 class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm">
+      工作经历
+    </h2>
+    <div class="space-y-10">
+      <TimelineItem
+        v-for="(exp, index) in experiences"
+        :key="index"
+        :company="exp.company"
+        :role="exp.role"
+        :period="exp.period"
+        :location="exp.location"
+        :description="exp.description"
+        :techStack="exp.techStack"
+      />
+    </div>
+  </section>
+</template>
