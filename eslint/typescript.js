@@ -1,0 +1,6 @@
+export default {
+  files: ['**/*.ts'],
+  rules: {
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }]
+  }
+};

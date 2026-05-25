@@ -1,0 +1,8 @@
+.nuxt
+.output
+dist
+.idea
+.vercel
+public
+*.local
+node_modules

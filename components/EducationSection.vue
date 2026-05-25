@@ -1,6 +1,8 @@
 <template>
   <section class="mb-24">
-    <h2 class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm">
+    <h2
+      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm"
+    >
       教育经历
     </h2>
     <div class="flex items-start gap-4">
