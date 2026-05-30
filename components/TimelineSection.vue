@@ -1,12 +1,6 @@
 <script lang="ts" setup>
-interface Experience {
-  company: string;
-  role: string;
-  period: string;
-  location: string;
-  description: string;
-  techStack: string[];
-}
+import type { Experience } from '~/types';
+
 const experiences: Experience[] = [
   {
     company: '华为技术有限公司',
