@@ -1,7 +1,7 @@
 <template>
   <section class="mb-24">
     <h2
-      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm"
+      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider"
     >
       教育经历
     </h2>

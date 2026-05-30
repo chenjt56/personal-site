@@ -1,10 +1,18 @@
-<script setup lang="ts">
-const experiences = [
+<script lang="ts" setup>
+interface Experience {
+  company: string;
+  role: string;
+  period: string;
+  location: string;
+  description: string;
+  techStack: string[];
+}
+const experiences: Experience[] = [
   {
     company: '华为技术有限公司',
     role: '前端开发工程师（OD）',
     period: '2024 - 至今',
-    location: '深圳',
+    location: '东莞',
     description: '负责华为内部系统前端开发与维护，参与企业级应用的功能迭代。',
     techStack: ['Vue 3', 'TypeScript', 'Vite']
   },
@@ -31,7 +39,7 @@ const experiences = [
 <template>
   <section class="mb-24">
     <h2
-      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm"
+      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider"
     >
       工作经历
     </h2>
@@ -40,10 +48,10 @@ const experiences = [
         v-for="(exp, index) in experiences"
         :key="index"
         :company="exp.company"
-        :role="exp.role"
-        :period="exp.period"
-        :location="exp.location"
         :description="exp.description"
+        :location="exp.location"
+        :period="exp.period"
+        :role="exp.role"
         :tech-stack="exp.techStack"
       />
     </div>

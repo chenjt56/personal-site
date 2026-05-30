@@ -1,15 +1,15 @@
 <template>
   <section class="mb-24">
     <h2
-      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm"
+      class="text-lg font-semibold mb-8 text-gray-500 dark:text-gray-400 uppercase tracking-wider"
     >
       联系方式
     </h2>
     <div class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
       <p>
         邮箱：<a
-          href="mailto:1239706051@qq.com"
           class="text-gray-900 dark:text-gray-100 hover:underline"
+          href="mailto:1239706051@qq.com"
           >1239706051@qq.com</a
         >
       </p>

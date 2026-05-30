@@ -1,5 +1,5 @@
-<script setup lang="ts">
-const skills = [
+<script lang="ts" setup>
+const skills: string[] = [
   'Vue 3',
   'React',
   'TypeScript',
@@ -18,7 +18,7 @@ const skills = [
 <template>
   <section class="mb-24">
     <h2
-      class="text-lg font-semibold mb-6 text-gray-500 dark:text-gray-400 uppercase tracking-wider text-sm"
+      class="text-lg font-semibold mb-6 text-gray-500 dark:text-gray-400 uppercase tracking-wider"
     >
       技能
     </h2>
